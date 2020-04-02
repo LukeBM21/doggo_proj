@@ -11,12 +11,12 @@ class Tracker(models.Model):
     date=models.DateTimeField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    morning_walk=BooleanField()
-    afternoon_walk= BooleanField()
-    evening_walk=BooleanField()
-    breakfast=BooleanField()
-    lunch=BooleanField()
-    dinner=BooleanField()
+    morning_walk= models.BooleanField()
+    afternoon_walk= models.BooleanField()
+    evening_walk= models.BooleanField()
+    breakfast= models.BooleanField()
+    lunch= models.BooleanField()
+    dinner= models.BooleanField()
 
 
 
