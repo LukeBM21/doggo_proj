@@ -11,6 +11,7 @@ class Tracker(models.Model):
     date=models.DateTimeField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
     morning_walk=models.BooleanField()
     afternoon_walk= models.BooleanField()
     evening_walk=models.BooleanField()
@@ -18,6 +19,8 @@ class Tracker(models.Model):
     breakfast=models.BooleanField()
     lunch=models.BooleanField()
     dinner=models.BooleanField()
+
+
 
 
 
